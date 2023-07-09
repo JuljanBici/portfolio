@@ -24,7 +24,7 @@ const AlbTech = () => {
   return (
     <div className=" w-screen overflow-hidden flex flex-col items-center justify-center">
       <h2 className=" text-[4rem] font-bold ">
-        AlbTech.
+        GadgetAlb.
       </h2>
       <div className=" text-lg flex flex-col w-full gap-5 pt-16 max-w-[50rem]">
         <motion.div 
@@ -74,7 +74,7 @@ const AlbTech = () => {
             >
             <img src='' />
             <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[85%] py-4">
-              <div className="font-bold text-xl mb-1 ">Albtech</div>
+              <div className="font-bold text-xl mb-1 ">GadgetAlb</div>
             </div>
           </div >
           <div className=" mb-6 z-10 group h-[30rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
