@@ -4,6 +4,12 @@ import { SiTailwindcss } from "react-icons/si";
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
+import chatTrickMain from '../images/chatTrickChatGrain.jpg'
+import chatTrickSec from '../images/chatTrickImagesGrain.jpg'
+import chatTrickThird from '../images/chatTrickLogin.jpg'
+import chatTrickForth from '../images/chatTrickUserGrain.jpg'
+import chatTrickFifth from '../images/chatTrickMainGrain.jpg'
+import chatTrickSixth from '../images/chatTrickMessagesGrain.jpg'
 
 const ChatApp = () => {
 
@@ -70,43 +76,54 @@ const ChatApp = () => {
       <div className=" mt-14 flex md:flex-row flex-col justify-center w-full gap-8">
         <div className="flex flex-col items-center">
           <div className=" mb-6 z-10 group h-[23rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
-            <img src='' />
-            <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[85%] py-4">
-              <div className="font-bold text-xl mb-1 ">ChatTrick.</div>
+            <div style={{ position: 'relative', height: '100%' }}>
+              <img className="w-full h-[140%] object-cover object-bottom" style={{ position: 'absolute', bottom: -90 }} src={chatTrickMain} />
+              <div className="px-6 z-10 absolute bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[85%] py-4">
+                <div className="font-bold text-xl mb-1 ">ChatTrick.</div>
+              </div>
             </div>
           </div>
           <div className=" mb-6 z-10 group h-[30rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
-            <img src='' />
-            <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-40%] py-4">
-              <p className="text-xl font-bold"></p>
-              <p className="md:text-xl text-[1.11rem] pt-4">Powered by React JS, my chat app offers real-time communication and dynamic updates, enabling users to <span className=" text-sky-500">connect</span> and exchange messages effortlessly. With React Router Dom, seamless page transitions enhance the overall navigation experience, ensuring a smooth flow across the application.</p>
+            <div style={{ position: 'relative', height: '100%' }}>
+              <img className="w-full h-[120%] object-cover object-bottom" style={{ position: 'absolute', bottom: -60 }} src={chatTrickThird} />
+              <div className="px-6 z-10 absolute backdrop-blur-sm bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-40%] py-4">
+                <p className="md:text-xl text-[1.11rem] pt-4">Powered by React JS, my chat app offers real-time communication and dynamic updates, enabling users to <span className=" text-sky-500">connect</span> and exchange messages effortlessly. With React Router Dom, seamless page transitions enhance the overall navigation experience, ensuring a smooth flow across the application.</p>
+              </div>
             </div>
           </div>
           <div className=" mb-6 z-10 group h-[23rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
-            <img src='' />
-            <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-20%] py-4">
-              <p className="md:text-xl text-[1.05rem] pt-4">The integration of Firebase and Firebase Firestore provides <span className=" text-sky-500">secure</span> authentication, safeguarding user data and ensuring a safe environment for communication. These technologies also enhance the app&apos;s functionality, enabling features such as real-time chat updates and efficient message storage.</p>
+            <div style={{ position: 'relative', height: '100%' }}>
+              <img className="w-full h-[120%] object-cover object-bottom" style={{ position: 'absolute', bottom: -60 }} src={chatTrickFifth} />
+              <div className="px-6 z-10 absolute backdrop-blur-sm bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-20%] py-4">
+                <p className="md:text-xl text-[1.05rem] pt-4">The integration of Firebase and Firebase Firestore provides <span className=" text-sky-500">secure</span> authentication, safeguarding user data and ensuring a safe environment for communication. These technologies also enhance the app&apos;s functionality, enabling features such as real-time chat updates and efficient message storage.</p>
+              </div>
             </div>
           </div>
         </div>
         <div className=" flex flex-col items-center">
           <div className=" mb-6 z-10 group h-[23rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
-            <img src='' />
-            <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[85%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-10%] py-4">
-              <div className="font-bold text-xl mb-1 ">The Progress</div>
-              <p className="md:text-xl text-[1.05rem] pt-4">Introducing my professional-grade chat application, developed using React JS, React Router Dom, Tailwind CSS, Firebase, and Firebase Firestore. This solution combines seamless functionality, responsive design, and secure authentication to deliver an exceptional user experience.</p>
+            <div style={{ position: 'relative', height: '100%' }}>
+              <img className="w-full h-[140%] object-cover object-bottom" style={{ position: 'absolute', bottom: -140 }} src={chatTrickSec} />
+              <div className="px-6 z-10 absolute backdrop-blur-sm bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[85%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-10%] py-4">
+                <div className="font-bold text-xl mb-1 ">The Progress</div>
+                <p className="md:text-xl text-[1.05rem] pt-4">Introducing my professional-grade chat application, developed using React JS, React Router Dom, Tailwind CSS, Firebase, and Firebase Firestore. This solution combines seamless functionality, responsive design, and secure authentication to deliver an exceptional user experience.</p>
+              </div>
             </div>
           </div>
           <div className=" mb-6 z-10 group h-[23rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
-            <img src='' />
-            <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-20%] py-4">
-              <p className="md:text-xl text-[1.05rem] pt-4">The utilization of Tailwind CSS ensures a visually appealing and <span className=" text-sky-500">responsive</span> design, making the chat app accessible and enjoyable on various devices and platforms. The challenge of structuring the app&apos;s functionality was successfully addressed, resulting in a streamlined user interface and optimal performance for all users.</p>
+            <div style={{ position: 'relative', height: '100%' }}>
+              <img className="w-full h-[140%] object-cover object-bottom" style={{ position: 'absolute', bottom: -140 }} src={chatTrickForth} />
+              <div className="px-6 z-10 absolute backdrop-blur-sm bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-20%] py-4">
+                <p className="md:text-xl text-[1.05rem] pt-4">The utilization of Tailwind CSS ensures a visually appealing and <span className=" text-sky-500">responsive</span> design, making the chat app accessible and enjoyable on various devices and platforms. The challenge of structuring the app&apos;s functionality was successfully addressed, resulting in a streamlined user interface and optimal performance for all users.</p>
+              </div>
             </div>
           </div>
           <div className=" mb-6 z-10 group h-[30rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
-            <img src='' />
-            <div className="px-6 z-10 absolute bg-white bg-opacity-30 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-50%] py-4">
-              <p className="md:text-xl text-[1.05rem] pt-4">Experience the pleasure of <span className=" text-sky-500">fast</span> and pleasing communication with my professionally developed chat app. Seamlessly connect with others, enjoy an intuitive user interface, and revel in the speed and efficiency of my advanced solution.</p>
+            <div style={{ position: 'relative', height: '100%' }}>
+              <img className="w-full h-[120%] object-cover object-bottom" style={{ position: 'absolute', bottom: -60 }} src={chatTrickSixth} />
+              <div className="px-6 z-10 absolute backdrop-blur-sm bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[95%] group-hover:-inset-y-[0%] md:group-hover:-inset-y-[-50%] py-4">
+                <p className="md:text-xl text-[1.05rem] pt-4">Experience the pleasure of <span className=" text-sky-500">fast</span> and pleasing communication with my professionally developed chat app. Seamlessly connect with others, enjoy an intuitive user interface, and revel in the speed and efficiency of my advanced solution.</p>
+              </div>
             </div>
           </div>
         </div>
