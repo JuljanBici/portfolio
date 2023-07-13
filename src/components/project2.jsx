@@ -4,12 +4,12 @@ import { SiTailwindcss } from "react-icons/si";
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
-import chatTrickMain from '../images/chatTrickChatGrain.JPG'
-import chatTrickSec from '../images/chatTrickImagesGrain.JPG'
-import chatTrickThird from '../images/chatTrickLogin.JPG'
-import chatTrickForth from '../images/chatTrickUserGrain.JPG'
-import chatTrickFifth from '../images/chatTrickMainGrain.JPG'
-import chatTrickSixth from '../images/chatTrickMessagesGrain.JPG'
+import chatTrickMain from '../images/chatTrickChatGrain.jpg'
+import chatTrickSec from '../images/chatTrickImagesGrain.jpg'
+import chatTrickThird from '../images/chatTrickLogin.jpg'
+import chatTrickForth from '../images/chatTrickUserGrain.jpg'
+import chatTrickFifth from '../images/chatTrickMainGrain.jpg'
+import chatTrickSixth from '../images/chatTrickMessagesGrain.jpg'
 
 const ChatApp = () => {
 
