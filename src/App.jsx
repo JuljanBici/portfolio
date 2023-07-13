@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     //mos harro me vendos background-animate 
-      <div className='bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 dark:bg-gradient-to-b text- dark:from-gray-900 dark:via-purple-950 dark:to-violet-900 text-zinc-800 dark:text-white flex flex-col transition-[0.5s] w-full items-center'>
+      <div className=' text-zinc-800 dark:text-white flex flex-col transition-[0.5s] w-full items-center'>
         <div>
           <div id="wave"></div>
           <div id="wave"></div>

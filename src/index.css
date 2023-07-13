@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-bodya {
+body {
   margin: auto;
   background: linear-gradient(to right, rgb(254, 202, 202), rgb(252, 165, 165), rgb(254, 240, 138));
   animation: gradient 15s ease infinite;
@@ -17,7 +17,7 @@ bodya {
   background-attachment: fixed;
 }
 
-.dark bodya {
+.dark body {
   margin: auto;
   background: linear-gradient( rgb(17, 24, 39), rgb(59, 7, 100), rgb(76, 29, 149));
   animation: gradient 15s ease infinite;
