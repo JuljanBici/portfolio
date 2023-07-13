@@ -4,11 +4,11 @@ import { SiTailwindcss } from "react-icons/si";
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
-import gadgetAlbMain from '../images/gadgetAlbBestGrain.jpg'
-import gadgetAlbSec from '../images/gadgetAlbBest.jpg'
-import gadgetAlbThird from '../images/gadgetAlbFullGrain.jpg'
-import gadgetAlbForth from '../images/gadgetAlbLogin.jpg'
-import gadgetAlbFifth from '../images/gadgetAlbMainGrain.jpg'
+import gadgetAlbMain from '../images/gadgetAlbBestGrain.JPG'
+import gadgetAlbSec from '../images/gadgetAlbBest.JPG'
+import gadgetAlbThird from '../images/gadgetAlbFullGrain.JPG'
+import gadgetAlbForth from '../images/gadgetAlbLogin.JPG'
+import gadgetAlbFifth from '../images/gadgetAlbMainGrain.JPG'
 import gadgetAlbSixth from '../images/meCoding.jpeg'
 
 const AlbTech = () => {
