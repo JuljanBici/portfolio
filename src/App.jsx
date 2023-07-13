@@ -44,9 +44,9 @@ const App = () => {
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
         <ScrollToTop />
         <Routes>
-          <Route path='/GadgedAlb' element={<Work />} />
-          <Route path='/GadgedAlb/about' element={<About />} />
-          <Route path='/GadgedAlb/contact' element={<Contact />} />
+          <Route path='/' element={<Work />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path="*" element={<Error/>} />
         </Routes>
         <Footer />

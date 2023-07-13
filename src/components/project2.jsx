@@ -29,9 +29,9 @@ const ChatApp = () => {
 
   return (
     <div className=" w-full overflow-hidden flex flex-col items-center justify-center">
-      <h2 className=" text-[4rem] font-bold ">
+      <a href='https://chat-trick.vercel.app/' target="blank" className=" text-[4rem] font-bold ">
         ChatTrick.
-      </h2>
+      </a>
       <div className=" text-lg flex flex-col w-full gap-5 pt-16 max-w-[50rem]">
         <motion.div 
           className=" flex flex-col  md:items-start items-center"
@@ -75,14 +75,14 @@ const ChatApp = () => {
       </div>
       <div className=" mt-14 flex md:flex-row flex-col justify-center w-full gap-8">
         <div className="flex flex-col items-center">
-          <div className=" mb-6 z-10 group h-[23rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
+          <a href='https://chat-trick.vercel.app/' target="blank" className=" mb-6 z-10 group h-[23rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
             <div style={{ position: 'relative', height: '100%' }}>
               <img className="w-full h-[140%] object-cover object-bottom" style={{ position: 'absolute', bottom: -90 }} src={chatTrickMain} />
               <div className="px-6 z-10 absolute bg-white dark:bg-black bg-opacity-40 dark:bg-opacity-40 w-full h-full transform duration-500 inset-y-[85%] py-4">
                 <div className="font-bold text-xl mb-1 ">ChatTrick.</div>
               </div>
             </div>
-          </div>
+          </a>
           <div className=" mb-6 z-10 group h-[30rem] relative rounded overflow-hidden shadow-lg w-[18rem] lg:w-[30rem] md:w-[20rem] sm:w-[20rem]">
             <div style={{ position: 'relative', height: '100%' }}>
               <img className="w-full h-[120%] object-cover object-bottom" style={{ position: 'absolute', bottom: -60 }} src={chatTrickThird} />
