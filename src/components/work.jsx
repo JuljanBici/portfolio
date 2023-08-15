@@ -2,6 +2,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import AlbTech from "./project1";
 import ChatApp from "./project2";
+import RestoGrand from "./project3";
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
@@ -81,6 +82,9 @@ const Work = () => {
       </div>
       <div className=" pt-[8rem] flex items-center justify-center w-full">
         <ChatApp />
+      </div>
+      <div className=" pt-[8rem] flex items-center justify-center w-full">
+        <RestoGrand />
       </div>
       <section className="pt-32">
         <div className="py-8 flex flex-col items-center mx-auto max-w-screen-md text-center">
