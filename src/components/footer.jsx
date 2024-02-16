@@ -8,7 +8,7 @@ const footer = () => {
       <div className=" md:w-[50%] w-[95%] flex flex-col mb-10 bg-white bg-opacity-40 rounded-3xl px-10 pb-7 pt-5 ">
         <p className=" pb-5 font-semibold text-3xl"> Juljan Biçi</p>
         <p className=" font-light "> A Web Developer, crafting captivating websites with a perfect blend of creativity and technical expertise with tons of desire for knowloge.</p>
-        <p className=" mt-4 font-medium">© 2023 Juljan Biçi</p>
+        <p className=" mt-4 font-medium">© 2021 Juljan Biçi</p>
       </div>
       <div className=" flex flex-col mb-10 w-[19rem] bg-white bg-opacity-40 px-10 py-5 rounded-3xl gap-10">
         <ul className=" flex flex-col">
