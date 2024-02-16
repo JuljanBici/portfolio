@@ -43,7 +43,7 @@ const Work = () => {
         animate={{opacity: 1, y: 0}}
         transition={{type: 'spring', duration: 2, delay:0.3 }}
       >
-        I&apos;m a self-taught <span className=" text-orange-600">Front-End Developer</span> ,who brings ideas to life by creating beautiful and functional websites, merging design and coding to deliver impactful digital experiences in my portfolio where creativity and technology collide.
+        I&apos;m a self-taught <span className=" text-orange-600">Web Developer</span> ,who brings ideas to life by creating beautiful and functional websites, merging design and coding to deliver impactful digital experiences in my portfolio where creativity and technology collide.
       </motion.p>
       <span id="scroll-btn" className="block pt-24">
           <a>
