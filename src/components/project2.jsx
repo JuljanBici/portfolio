@@ -42,7 +42,7 @@ const ChatApp = () => {
           >
           <div className="lg:px-32 px-16 py-2 rounded-3xl bg-white bg-opacity-20">
             <p className=" font-medium">Timeline</p>
-            <p className=" font-light">2023 - Present</p>
+            <p className=" font-light">2021 - Present</p>
           </div>
         </motion.div >
         <motion.div 
